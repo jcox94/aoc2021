@@ -1,0 +1,21 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"folder_exclude_patterns": [".build"]
+		}
+	],
+	"build_systems": [
+		{
+			"name": "run",
+			"shell_cmd": "swift run",
+			"working_dir": "$project_path"
+		},
+		{
+			"name": "run release",
+			"shell_cmd": "swift run -c release",
+			"working_dir": "$project_path"
+		}
+	]
+}
